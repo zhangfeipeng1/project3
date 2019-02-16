@@ -1,0 +1,104 @@
+/**app.wxss**/
+
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/*轮播图样式*/
+.slider,.slider swiper,.slider image{
+  width: 100%;
+  height: 400rpx;
+}
+/*通用功能二：截取*/
+.ell{
+  overflow: hidden;             /*超出部分隐藏*/
+  white-space: nowrap;          /*不允许换行*/
+  text-overflow: ellipsis;      /*超出部分添加...*/
+}
+/*分割快*/
+.divider{
+  height: 20rpx;
+  background: #ccc;
+}
+/*箭头*/
+.arrow{
+  display: flex;
+  justify-content: space-between;      /*两端对齐*/
+  align-items: center;                /*垂直居中*/
+}
+.arrow::after{  /*伪类选择器*/
+  content: "";
+  width: 15rpx;
+  height: 15rpx;
+  border-top:3rpx solid #ccc;
+  border-right: 3rpx solid #ccc;
+  transform: rotate(45deg);
+}
+/*2.当前商品条目*/
+.shop{
+  padding: 20rpx;
+  border-bottom:1rpx solid #ddd;
+  display: flex; 
+  /*定位打分组件 父元素相对定位  子元素绝对定位*/
+  position: relative;
+}/*3.当前商品图片*/
+.shop-img{
+  width: 160rpx;
+  height: 158rpx;
+  margin-right: 20rpx; 
+}
+/*4.商品信息*/
+.shop-info{
+  width: 520rpx;
+  font-size:12px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+/*5.店铺名称*/
+.shop-title{
+  font-size: 16px;
+  color: #333;
+  width: 380rpx;
+}
+/*6.店铺电话*/
+/*7.店铺地址*/
+/*8.店铺营业时间*/
+/*9.打分*/
+.shop-star{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}
+.star-after{
+  color: #e2e2e2;
+}
+.star-before{
+  color: #f19e38;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+/*404开发页面*/
+.fudaoban image{
+  width: 500rpx;
+  height: 500rpx;
+  display: block;
+  margin: 0 auto;
+}
+.fudaoban{
+  text-align: center;
+  color: red;
+  font-weight: 900;
+}
+.fudaoban text{
+  display: block;
+  margin-top:50px;
+}

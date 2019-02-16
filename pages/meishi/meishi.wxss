@@ -1,0 +1,7 @@
+/* pages/meishi/meishi.wxss */
+/*1.组件白色背景*/
+page{
+  background-color: #fff;
+}
+
+

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fudaoban/fudaoban",
+    "pages/qiche/qiche",
+    "pages/gongzuo/gongzuo",
+    "pages/meishi/meishi",
+    "pages/message/message",
+    "pages/kalaOK/kalaOK",
+    "pages/jiehun/jiehun",
+    "pages/logs/logs",
+    "pages/profile/profile",
+    "pages/zufang/zufang",
+    "pages/zhuangxiu/zhuangxiu",
+    "pages/gengduo/gengduo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "本地服务",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/img/home.png",
+        "selectedIconPath": "/pages/img/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/pages/img/message.png",
+        "selectedIconPath": "/pages/img/message-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "联系",
+        "iconPath": "/pages/img/contact.png",
+        "selectedIconPath": "/pages/img/contact-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我",
+        "iconPath": "/pages/img/profile.png",
+        "selectedIconPath": "/pages/img/profile-active.png"
+      }
+    ]
+  }
+}

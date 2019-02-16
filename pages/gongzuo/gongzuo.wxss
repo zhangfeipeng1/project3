@@ -1,0 +1,10 @@
+/* pages/gongzuo/gongzuo.wxss */
+.xiaoxi{
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  border: 3rpx solid black;
+}
+.RedSize{
+  color: #f00;
+}

@@ -1,0 +1,24 @@
+/* pages/profile/profile.wxss */
+/*头像*/
+.avatar{
+  background: #f00;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar image{
+  width: 190rpx;
+  height: 190rpx;
+  border-radius: 50%;
+  border:3rpx solid rgba(0,0,0,0.3);
+}
+/* 条目 */
+.cell{
+  background-color: #fff;
+  font-size: 16px;
+}
+.cell-item{
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #ddd;
+}

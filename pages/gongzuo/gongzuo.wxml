@@ -1,0 +1,22 @@
+<!--pages/gongzuo/gongzuo.wxml-->
+<!--顶部消息-->
+<view class="xiaoxi">
+  <text class="RedSize">公告:</text>
+  <text>加微信号：pis123456，拉你进工人微信群</text>  
+  <text class="RedSize">客服电环 :</text>
+  <text>400-888-333</text>
+  <text class="RedSize">提示：</text>
+  <text>于泡网免费送工友回家过年！！！</text> 
+</view>
+<view class="divider"></view>
+<view class="divider"></view>
+<!--招聘广告-->
+<view class="shop" wx:for="{{list2}}" wx:key="index">
+  <image class="shop-img" lazy-load='true' src="{{item.img_url}}"></image>
+  <view class="shop-info">
+    <view class="shop-title ell">招聘职位{{item.gname}}</view>
+    <view class="shop-tel">联系人：{{item.gphone}}</view>
+    <view clsaa="shop-address arrow">招工状态：{{item.gaddr}}</view>
+    <view class="shop-time">发布时间：{{item.gtime}}</view>
+  </view>
+</view>

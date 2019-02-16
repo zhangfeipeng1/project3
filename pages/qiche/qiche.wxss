@@ -1,0 +1,31 @@
+/* pages/qiche/qiche.wxss */
+.shop-star{
+  font-size: 14px; 
+  right: 150rpx;
+  top: 290rpx;
+}
+.shop-img-min{
+  position: absolute;
+  left: 600rpx;
+  top: 20rpx;
+  width:100rpx;
+  height: 100rpx;
+}
+.shop-dianping{
+  position: absolute;
+  top:420rpx;
+}
+.shop-title{
+  color:#000;
+  font-weight: 600;
+  font-size: 18px;
+}
+.shop-fuwu{
+  color: #333;
+  font-size: 14px;
+  margin-top: 10rpx;
+}
+.shop--pinglun{
+  position: absolute;
+  top:600rpx;
+}

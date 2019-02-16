@@ -1,0 +1,22 @@
+<!--pages/qiche/qiche.wxml-->
+<view class="shop">
+  <image class="shop-img" lazy-load='true' src='/pages/img/qiche.png'></image>
+  <view class="shop-info">
+    <view class="shop-title">月福（北洼路店）</view>
+    <view class="shop-tel">★★★★★ 82条 费用：￥86</view>
+    <view class="shop-address">技术：9.1 服务：9.1 环境：9.1</view>
+    <view class="shop-time">紫竹桥 维修保养</view>
+  </view>
+  <view class="shop-star">
+    <image class="shop-img-min" src='/pages/img/contact-active.png'></image>
+    <view>北洼路北洼东里小区服务楼(近466医院)</view>
+    <view>据北京化工大学步行860m</view>
+  </view>
+  <view class="shop-dianping">
+    <view class="shop-title">网友点评(82)</view>
+    <view class="shop-fuwu">服务热情(18)   环境优雅(3)</view>
+  </view>
+  <view class="shop--pinglun">
+    <text>凤凰网汽车讯 2019年1月23日，2018中国汽车年度盛典在北京凤凰中心盛大举行。本次盛典以“不负主场时代”为主题，在中国国际贸易促进委员会汽车行业分会、中国国际商会汽车行业商会的大力支持下，通过近两个月的评选，凤凰网以市场热度、用户口碑、品牌价值等作为评选维度进行综合考量，结合凤凰网网友投票、凤凰网和凤凰网新闻客户端以及凤凰网汽车APP大数据分析逐层筛选、晋级；并由20位资深汽车媒体人及行业专家从各级别入围的2款车型中票选出最终的优胜者。</text>
+  </view>
+</view>

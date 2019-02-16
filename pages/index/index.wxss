@@ -1,0 +1,80 @@
+/* 搜索框 */
+.search{  
+  width: 80%;  
+}  
+.search_arr {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin-left: 20rpx;  
+}  
+.search_arr input{  
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 5px;  
+}  
+.bc_text {  
+  line-height: 68rpx;  
+  height: 68rpx;  
+  margin-top: 34rpx;  
+}  
+.sousuo {  
+  margin-left: 15rpx;  
+  width: 15%;  
+  line-height: 150%;  
+  text-align: center;  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+}  
+.page_row{  
+  display: flex;  
+  flex-direction: row  ;
+}  
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 20px;  
+  height: 20px;  
+  text-align: center;  
+}  
+
+/*功能二：九宫格*/
+/*父元素*/
+.index-nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+/*子元素*/
+.nav-item{
+  width: 33.33333%;
+  height: 200rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.nav-item:nth-child(3n){border-right: 0 none;}
+/*子元素中图片*/
+.nav-item image{
+  width: 102rpx;
+  height: 102rpx;
+}
+/*两个按钮*/
+.index-enter{
+  display: flex;
+  padding: 20rpx 20rpx;
+}
+.index-enter .enter-item{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.index-enter image{
+  width: 320rpx;
+  height: 178rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/zufang/zufang.wxml-->
+<view class="fudaoban">
+    <image mode='aspectFill' src="/pages/img/404_img1.png"></image>
+    <text>页面正在开发中</text>
+    <text>敬请期待...</text>
+</view>
